@@ -1,98 +1,170 @@
-README Instructions
+# 🧮 Simple Calculator (Linux Shell Script)
 
-Simple Calculator (Linux Shell Script)
-An interactive calculator script built using Bash, designed to perform basic arithmetic operations directly in the Linux terminal.
-This project was created as part of my Linux Lab Project.
+An interactive command-line calculator built using **Bash Shell Scripting**. This project performs basic arithmetic operations directly from the Linux terminal and demonstrates fundamental shell scripting concepts.
 
-Features
-• Addition
-• Subtraction
-• Multiplication
-• Division
-• Exit option with confirmation
-• Handles invalid inputs gracefully
+> Developed as part of a Linux Lab Project.
 
-Requirements
-Make sure your system has:
-• Linux / Ubuntu terminal
-• bc (Basic Calculator utility)
+---
 
-Instructions for Running the Script
+## ✨ Features
 
-1. Save the Script:
-Copy the code and save it in a file named simple_calculator.sh.
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+* 🔄 Menu-driven interface
+* 🚪 Exit option with confirmation
+* ⚠️ Handles invalid user input gracefully
 
-2. Make the Script Executable:
-Open a terminal and navigate to the directory where the script is saved.
-Run the command:
+---
+
+## 🛠️ Technologies Used
+
+* Bash Shell Scripting
+* Linux Terminal
+* `bc` (Basic Calculator Utility)
+
+---
+
+## 📋 Prerequisites
+
+Before running the script, ensure you have:
+
+* Linux / Ubuntu Operating System
+* Bash Shell
+* `bc` package installed
+
+Install `bc` if required:
+
+```bash
+sudo apt install bc
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Save the Script
+
+Save the source code as:
+
+```text
+simple_calculator.sh
+```
+
+### 2️⃣ Make the Script Executable
+
+```bash
 chmod +x simple_calculator.sh
+```
 
-3. Run the Script:
-Execute the script by typing:
+### 3️⃣ Run the Script
+
+```bash
 ./simple_calculator.sh
+```
 
-4. Using the Calculator:
-The script will display the following menu:
+---
 
+## 📖 Menu Options
+
+```text
 Simple Calculator
+
 1. Addition
 2. Subtraction
 3. Multiplication
 4. Division
 5. Exit
+
 Enter your choice (1-5):
+```
 
-Enter a number corresponding to the desired operation:
+| Option | Operation      |
+| ------ | -------------- |
+| 1      | Addition       |
+| 2      | Subtraction    |
+| 3      | Multiplication |
+| 4      | Division       |
+| 5      | Exit Program   |
 
-1: Addition
-2: Subtraction
-3: Multiplication
-4: Division
-5: Exit the program
+---
 
-For options 1–4, you will be prompted to enter two numbers. The script will calculate and display the result.
+## 💻 Example Outputs
 
-5 Exiting the Program:
-To exit, select option 5. You will be asked to confirm by entering y or n. If you choose y, the program will terminate.
+### ➕ Addition
 
-Example Outputs
-
-1. Addition:
+```text
 Enter your choice (1-5): 1
 Enter two numbers: 10 20
-10 + 20 = 30
 
-2. Subtraction:
+10 + 20 = 30
+```
+
+### ➖ Subtraction
+
+```text
 Enter your choice (1-5): 2
 Enter two numbers: 50 20
-50 - 20 = 30
 
-3. Multiplication:
+50 - 20 = 30
+```
+
+### ✖️ Multiplication
+
+```text
 Enter your choice (1-5): 3
 Enter two numbers: 6 7
-6 * 7 = 42
 
-4. Division:
+6 * 7 = 42
+```
+
+### ➗ Division
+
+```text
 Enter your choice (1-5): 4
 Enter two numbers: 10 3
+
 10 / 3 = 3.33
+```
 
-5. Exit:
+### 🚪 Exit
+
+```text
 Enter your choice (1-5): 5
+
 Are you sure you want to exit? (y/n): y
+
 Goodbye!
+```
 
-Key Notes
-Ensure you have the bc command-line tool installed on your system, as it is required for arithmetic operations.
-The script gracefully handles invalid inputs and provides error messages to guide the user.
+---
 
-Academic Purpose
-This project demonstrates:
-• Shell scripting fundamentals
-• Conditional statements and loops
-• Command-line utility usage
+## 🎯 Learning Outcomes
 
-Author
-Lavanya Agrawal
+This project helped in understanding:
+
+* Shell Scripting Basics
+* Conditional Statements (`if-else`)
+* Loops (`while`)
+* User Input Handling
+* Functions in Bash
+* Command-Line Utilities
+* Menu-Driven Programming
+
+---
+
+## 📚 Academic Purpose
+
+This project was developed as part of the Linux Laboratory coursework to strengthen command-line programming and scripting skills.
+
+---
+
+## 👩‍💻 Author
+
+**Lavanya Agrawal**
+
 B.Tech Computer Science Engineering
-UPES Dehradun
+UPES, Dehradun
+
+GitHub: https://github.com/lavanyaag23
