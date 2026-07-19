@@ -153,6 +153,11 @@ This project helped in understanding:
 * Menu-Driven Programming
 
 ---
+## Latest Update
+
+- Updated project documentation.
+
+---
 
 ## 📚 Academic Purpose
 
